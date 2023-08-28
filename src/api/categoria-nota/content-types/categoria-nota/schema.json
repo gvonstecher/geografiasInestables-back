@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categoria_notas",
+  "info": {
+    "singularName": "categoria-nota",
+    "pluralName": "categoria-notas",
+    "displayName": "Secciones (notas)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Titulo"
+    },
+    "notas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::nota.nota",
+      "mappedBy": "categoria_nota"
+    }
+  }
+}

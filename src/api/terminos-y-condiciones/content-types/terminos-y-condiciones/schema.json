@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "terminos_y_condicioness",
+  "info": {
+    "singularName": "terminos-y-condiciones",
+    "pluralName": "terminos-y-condicioness",
+    "displayName": "Terminos y Condiciones",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Cuerpo": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

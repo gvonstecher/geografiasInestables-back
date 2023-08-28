@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "acerca_des",
+  "info": {
+    "singularName": "acerca-de",
+    "pluralName": "acerca-des",
+    "displayName": "Acerca De",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Cuerpo": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

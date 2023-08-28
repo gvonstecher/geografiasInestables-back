@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "politicas_de_privacidads",
+  "info": {
+    "singularName": "politicas-de-privacidad",
+    "pluralName": "politicas-de-privacidads",
+    "displayName": "Politicas de Privacidad",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "Cuerpo": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

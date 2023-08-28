@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "musicas",
+  "info": {
+    "singularName": "musica",
+    "pluralName": "musicas",
+    "displayName": "Musica"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Link": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

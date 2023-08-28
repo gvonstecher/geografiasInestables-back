@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categoria_podcasts",
+  "info": {
+    "singularName": "categoria-podcast",
+    "pluralName": "categoria-podcasts",
+    "displayName": "Programas (podcasts)"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Titulo"
+    },
+    "podcasts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::podcast.podcast",
+      "mappedBy": "categoria_podcast"
+    }
+  }
+}
