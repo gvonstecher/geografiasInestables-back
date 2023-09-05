@@ -16,13 +16,10 @@
       "type": "string",
       "required": true
     },
-    "Cuerpoo": {
-      "type": "richtext"
-    },
     "ImagenDestacada": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ]

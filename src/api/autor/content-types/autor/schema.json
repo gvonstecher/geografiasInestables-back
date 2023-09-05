@@ -4,7 +4,8 @@
   "info": {
     "singularName": "autor",
     "pluralName": "autors",
-    "displayName": "Autor"
+    "displayName": "Autor",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -19,11 +20,12 @@
       "type": "text"
     },
     "Foto": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "slug": {
       "type": "uid",

@@ -16,23 +16,21 @@
       "type": "string",
       "required": true
     },
-    "Cuerpoo": {
-      "type": "richtext"
-    },
     "DescripcionCorta": {
       "type": "text"
     },
     "ImagenDestacada": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ]
     },
     "slug": {
       "type": "uid",
-      "targetField": "Titulo"
+      "targetField": "Titulo",
+      "required": true
     },
     "tags": {
       "type": "relation",
