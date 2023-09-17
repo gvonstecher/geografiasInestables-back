@@ -22,6 +22,17 @@
     },
     "Link": {
       "type": "text"
+    },
+    "Imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "DescripcionCorta": {
+      "type": "text"
     }
   }
 }
